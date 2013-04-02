@@ -1,3 +1,5 @@
+;; Package setup with ELPA and Marmalade
+
 ;; Load the package manager
 (require 'package)
 
