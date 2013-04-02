@@ -1,4 +1,3 @@
-sixarm_emacs_dot_files
-======================
+# SixArm » Emacs » Dot files for configuration
 
-SixArm » Emacs » Dot files for configuration
+This repo has our typical emacs.d files. 
