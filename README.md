@@ -17,7 +17,7 @@ Display:
 * set-default-font: we like using Inconsolata 14. 
 * show-line-number-and-column-number: add this info to the mode line. 
 
-Keyboard:
+Editing:
 
 * indent-tabs-mode-off: indent lines with spaces, not tabs.
 * meta-space-does-hippie-expand: quick way to autocomplete words.
