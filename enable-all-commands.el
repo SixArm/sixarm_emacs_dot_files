@@ -1,4 +1,4 @@
-;; Enable all commands.
+;; enable-all-commands: turn on powerful commands for experienced users.
 ;;
 ;; From the emacs docs: To protect newbie users from lossage, 
 ;; some Emacs commands are disabled by default due to their 

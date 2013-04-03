@@ -1,4 +1,4 @@
-;; Turn off auto save
+;; auto-save-off: turn off automatic saving of file buffers.
 ;;
 ;; By default, Emacs automatically saves your changes to a file intermittently. 
 ;; If anything should happen, you can recover a file with ‘M-x recover-file’.

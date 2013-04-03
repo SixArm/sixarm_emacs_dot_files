@@ -1,2 +1,3 @@
-;; A before-save-hook that will delete trailing whitespace when saving a file
+;; before-save-hook-to-delete-trailing-whitespace: clean up typical chaff
+
 (add-hook 'before-save-hook 'delete-trailing-whitespace)

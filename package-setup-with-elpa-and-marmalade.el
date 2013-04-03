@@ -1,4 +1,4 @@
-;; Package setup with ELPA and Marmalade
+;; package-setup-with-elpa-and-marmalade: use good package manager archives.
 
 ;; Load the package manager
 (require 'package)

@@ -1,4 +1,4 @@
-;; Enable all commands in one fell swoop.
+;; enable-all-commands-in-one-fell-swoop: fast setup for experienced users.
 ;;
 ;; From the emacs docs: To protect newbie users from lossage, 
 ;; some Emacs commands are disabled by default due to their 
