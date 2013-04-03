@@ -16,3 +16,6 @@ This repo has our typical emacs.d files.
 * set-default-font: we like using Inconsolata 14. 
 * show-line-number-and-column-number: add this info to the mode line. 
 
+Modes:
+
+* closure-mode-on: require closure programming major mode.
