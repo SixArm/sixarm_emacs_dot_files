@@ -1,4 +1,4 @@
-;; linum-format-uses-right-justified-six-digits-bar-padding: make it readable.
+;; linum-format-uses-right-justify-six-digit-bar-pad: for readable line numbers.
 ;;
 ;; http://www.emacswiki.org/LineNumbers
 ;;

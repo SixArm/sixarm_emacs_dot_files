@@ -9,7 +9,7 @@ This repo has our typical emacs.d files.
 * enable-all-commands-in-one-fell-swoop: fast setup for experienced users.
 * global-font-lock-mode-without-syntax-color-highlight: we prefer plain text.
 * inhibit-startup-message: skip the intro "For information about GNU Emacs". 
-* linum-format-uses-right-justified-six-digits-bar-padding: make it readable.
+* linum-format-uses-right-justify-six-digit-bar-pad: for readable line numbers.
 * menu-bar-off: hide the graphical menu bar at the top of the screen.
 * package-setup-with-elpa-and-marmalade: use good package manager archives.
 * set-default-font: we like using Inconsolata 14. 
