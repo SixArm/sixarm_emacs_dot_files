@@ -13,6 +13,7 @@
 (load-library "menu-bar-off")
 (load-library "meta-space-does-hippie-expand")
 (load-library "prelude-guru-off")
+(load-library "search-uses-regexp")
 (load-library "select-window-with-alt-arrow")
 (load-library "set-default-font")
 (load-library "show-line-number-and-column-number")
