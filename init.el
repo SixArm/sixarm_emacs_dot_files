@@ -7,6 +7,7 @@
 (load-library "before-save-hook-to-delete-trailing-whitespace")
 (load-library "enable-all-commands-in-one-fell-swoop")
 (load-library "global-font-lock-mode-without-syntax-color-highlight")
+(load-library "global-hl-line-mode-off")
 (load-library "ido-everywhere")
 (load-library "indent-tabs-mode-off")
 (load-library "linum-format-uses-right-justify-six-digit-bar-pad")
