@@ -11,6 +11,7 @@ Startup:
 
 Display:
 
+* cursor-color-white: we prefer a bright white cursor.
 * global-font-lock-mode-without-syntax-color-highlight: we prefer plain text.
 * global-hl-line-mode-off: we prefer plain lines.
 * green-on-black-colors: we like the look of a classic display.
@@ -24,12 +25,18 @@ Editing:
 * indent-tabs-mode-off: indent lines with spaces, not tabs.
 * meta-space-does-hippie-expand: quick way to autocomplete words.
 * search-uses-regexp: kbd search with C-s and C-r uses regular expressions.
+* select-window-with-alt-arrow: faster navigation
 
 Files:
 
 * auto-save-off: turn off auto save of file buffers.
 * backup-inhibited: disable automatic backups of file buffers.  
 * before-save-hook-to-delete-trailing-whitespace: clean up typical chaff.
+
+Tools:
+
+* ido-everywhere: turn on the ido manager.
+* prelude-guru-off: because we want to be able to use arrow keys.
 
 Modes:
 
