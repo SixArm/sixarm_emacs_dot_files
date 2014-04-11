@@ -13,6 +13,7 @@ Display:
 
 * global-font-lock-mode-without-syntax-color-highlight: we prefer plain text.
 * global-hl-line-mode-off: we prefer plain lines.
+* green-on-black-colors: we like the look of a classic display.
 * linum-format-uses-right-justify-six-digit-bar-pad: for readable line numbers.
 * menu-bar-off: hide the graphical menu bar at the top of the screen.
 * set-default-font: we like using Inconsolata 14. 
