@@ -9,5 +9,4 @@
 ;;  * a vertical bar
 ;;  * one space of padding
 
-
 (setq linum-format "%6d| ")
