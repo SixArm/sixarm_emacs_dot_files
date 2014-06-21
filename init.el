@@ -8,14 +8,16 @@
 (load-library "auto-save-off")
 
 ;; Display
-(load-library "cursor-color-white")
 (load-library "global-font-lock-mode-without-syntax-color-highlight")
 (load-library "global-hl-line-mode-off")
-(load-library "green-on-black-colors")
 (load-library "linum-format-uses-right-justify-six-digit-bar-pad")
 (load-library "menu-bar-off")
 (load-library "set-default-font")
 (load-library "show-line-number-and-column-number")
+
+;; Colors
+;;(load-library "cursor-color-white")
+;;(load-library "green-on-black-colors")
 
 ;; Editing
 (load-library "indent-tabs-mode-off")
