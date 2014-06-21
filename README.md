@@ -11,14 +11,18 @@ Startup:
 
 Display:
 
-* cursor-color-white: we prefer a bright white cursor.
 * global-font-lock-mode-without-syntax-color-highlight: we prefer plain text.
 * global-hl-line-mode-off: we prefer plain lines.
-* green-on-black-colors: we like the look of a classic display.
 * linum-format-uses-right-justify-six-digit-bar-pad: for readable line numbers.
 * menu-bar-off: hide the graphical menu bar at the top of the screen.
 * set-default-font: we like using Inconsolata 14. 
 * show-line-number-and-column-number: add this info to the mode line. 
+
+Colors:
+
+* n.b. if you want these colors, edit init.el file to enable these
+* cursor-color-white: we prefer a bright white cursor.
+* green-on-black-colors: we like the look of a classic display.
 
 Editing:
 
