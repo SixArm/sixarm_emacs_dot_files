@@ -5,4 +5,8 @@
 ;;
 ;; See http://www.emacswiki.org/emacs/HighlightCurrentLine
 
-(global-hl-line-mode nil)
+;; Ubuntu needs 'nil'
+;;(global-hl-line-mode nil)
+
+;; Mac OSX needs '-1'
+(global-hl-line-mode -1)
