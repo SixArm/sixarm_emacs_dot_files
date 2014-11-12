@@ -1,7 +1,7 @@
 # SixArm » Emacs » Dot files for configuration
 
 This repo has our typical emacs.d files. 
-
+    
 Startup:
 
 * enable-all-commands: turn on powerful commands for experienced users.

@@ -1,4 +1,7 @@
-;; Initialize
+;; Initialize the current location
+(setq dotfiles-dir (file-name-directory (or load-file-name (buffer-file-name))))
+
+;; Add load paths
 (add-to-list 'load-path "~/.emacs.d/elisp/")
 
 ;; Startup
@@ -32,3 +35,12 @@
 ;; Tools
 (load-library "ido-everywhere")
 (load-library "prelude-guru-off")
+
+;; Load all our favorite packages and package archives
+(load-library "package-list")
+
+;; Bindings
+(load-file (concat dotfiles-dir "bindings/helm.el"))
+
+;; Modes
+(load-file (concat dotfiles-dir "modes/closure-mode-on.el"))
