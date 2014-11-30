@@ -80,6 +80,22 @@ Modes:
 </li>
 
 <li>
+  <div itemscope itemtype="http://schema.org/Code">
+    <meta itemprop="name" content="Rod's .emacs.org" />
+    <meta itemprop="url" content="https://github.com/rodw/.dotfiles/tree/master/emacs" />
+    <meta itemprop="keywords" content="emacs, dotfiles" />
+    <h1><cite><a href="https://github.com/rodw/.dotfiles/tree/master/emacs">Rod's .emacs.org</a></cite></h1>
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Rod Waldhoff />
+      <meta itemprop="email" content="" />
+      <link href="https://github.com/rodw" />
+      <link href="http://heyrod.com/" />
+      <a href="http://heyrod.com/" />Rod Waldhoff</a>
+    </div>
+  </div>
+</li>
+
+<li>
   <div itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="name" content="Effective .emacs" />
     <meta itemprop="url" content="http://a-nickels-worth.blogspot.com/2007/11/effective-emacs.html" />
