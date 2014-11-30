@@ -14,11 +14,15 @@ Display:
 
 * highlight-selection
 * linum-format-uses-right-justify-six-digit-bar-pad: for readable line numbers.
-* menu-bar-off: hide the graphical menu bar at the top of the screen.
+* menu-bar-off: omit the graphical menu bar at the top of the screen.
+* tool-bar-off: omit the tool bar.
+* scroll-bar-off: omit the scroll bar.
+* tooltip-off: omit tooltip info.
 * set-default-font: we like using Inconsolata 14.
 * show-paren: show parenthesis and use delay 0 for immediate feedback.
 * show-line-number-and-column-number: add this info to the mode line.
 * yes-or-no-prompts-show-y-or-n: change prompts from "yes/no" to "y/n".
+
 
 Personal:
 
