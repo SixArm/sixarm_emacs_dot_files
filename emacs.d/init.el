@@ -42,6 +42,7 @@
 (load-library "meta-space-does-hippie-expand")
 (load-library "search-uses-regexp")
 (load-library "select-window-with-alt-arrow")
+(load-library "sentence-end-single-space")
 (load-library "soft-tabs")
 
 ;; Compeletion
@@ -65,3 +66,4 @@
 
 ;; Modes
 (load-file (concat dotfiles-dir "modes/closure-mode-on.el"))
+(load-file (concat dotfiles-dir "modes/ruby/rake-is-ruby.el"))

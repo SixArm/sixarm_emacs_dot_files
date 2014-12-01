@@ -41,6 +41,7 @@ Editing:
 * meta-space-does-hippie-expand: quick way to autocomplete words.
 * search-uses-regexp: kbd search with C-s and C-r uses regular expressions.
 * select-window-with-alt-arrow: faster navigation.
+* sentence-end-single-space: sentences end with 1 space, not 2.
 * soft-tabs: backward delete whitespace to column.
 
 Completion:
@@ -62,6 +63,8 @@ Tools:
 Modes:
 
 * closure-mode-on: require closure programming major mode.
+* ruby/rake-is-ruby: tell emacs "Rakefile" and "*.rake"  are Ruby.
+
 
 ## Thanks & Links
 
@@ -69,12 +72,37 @@ Modes:
 
 <li>
   <div itemscope itemtype="http://schema.org/Code">
-    <meta itemprop="name" content=".emacs file" />
-    <meta itemprop="url" content="https://github.com/avar/dotemacs/" />
+    <meta itemprop="name" content="Sacha's .emacs file" />
     <meta itemprop="keywords" content="emacs, dotfiles" />
+    <meta itemprop="url" content="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org" />
+    <h1><cite><a href="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org">Sacha's .emacs dotfile</a></cite></h1>
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sacha Chua" />
+      <meta itemprop="keywords" content="emacs, dotfiles" />
+      <meta itemprop="url" content="http://sachachua.com/" />
+      <meta itemprop="email" content="" />
+      <link href="http://sachachua.com/" />
+      <link href="https://twitter.com/sachac" />
+      <link href="https://www.linkedin.com/in/sachac" />
+      <link href="http://experivis.com/" />
+      <link href="https://www.facebook.com/sachac" />
+      <link href="http://www.slideshare.net/sachac" />
+      <link href="https://www.flickr.com/photos/sachac/" />
+      <a href="http://sachachua.com/" />Sacha Chua</a>
+    </div>
+  </div>
+</li>
+
+<li>
+  <div itemscope itemtype="http://schema.org/Code">
+    <meta itemprop="name" content=".emacs file" />
+    <meta itemprop="keywords" content="emacs, dotfiles" />
+    <meta itemprop="url" content="https://github.com/avar/dotemacs/" />
     <h1><cite><a href="https://github.com/avar/dotemacs/">.emacs file</a></cite></h1>
     <div itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Arnfjörð Bjarmason" />
+      <meta itemprop="keywords" content="emacs, dotfiles" />
+      <meta itemprop="url" content="https://github.com/avar/" />
       <meta itemprop="email" content="avarab@gmail.com" />
       <link href="https://github.com/avar/" />
       <link href="http://xn--var-xla.net/" />
