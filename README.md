@@ -63,7 +63,9 @@ Tools:
 Modes:
 
 * closure-mode-on: require closure programming major mode.
-* ruby/rake-is-ruby: tell emacs "Rakefile" and "*.rake"  are Ruby.
+* javascript/js2: use JS2 mode.
+* json/json-uses-js: "*.json" et. al. use js-mode.
+* ruby/rake-uses-ruby: "*.rake" et. al. use ruby-mode.
 
 
 ## Thanks & Links
@@ -71,82 +73,88 @@ Modes:
 <ul>
 
 <li>
-  <div itemscope itemtype="http://schema.org/Code">
-    <meta itemprop="name" content="Sacha's .emacs file" />
+<cite>
+<div itemscope itemtype="http://schema.org/Code">
+  <meta itemprop="name" content="Sacha's .emacs file" />
+  <meta itemprop="keywords" content="emacs, dotfiles" />
+  <meta itemprop="url" content="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org" />
+  <h1><a href="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org">Sacha's .emacs dotfile</a></h1>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Sacha Chua" />
     <meta itemprop="keywords" content="emacs, dotfiles" />
-    <meta itemprop="url" content="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org" />
-    <h1><cite><a href="https://dl.dropboxusercontent.com/u/3968124/sacha-emacs.org">Sacha's .emacs dotfile</a></cite></h1>
-    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sacha Chua" />
-      <meta itemprop="keywords" content="emacs, dotfiles" />
-      <meta itemprop="url" content="http://sachachua.com/" />
-      <meta itemprop="email" content="" />
-      <link href="http://sachachua.com/" />
-      <link href="https://twitter.com/sachac" />
-      <link href="https://www.linkedin.com/in/sachac" />
-      <link href="http://experivis.com/" />
-      <link href="https://www.facebook.com/sachac" />
-      <link href="http://www.slideshare.net/sachac" />
-      <link href="https://www.flickr.com/photos/sachac/" />
-      <a href="http://sachachua.com/" />Sacha Chua</a>
-    </div>
+    <meta itemprop="url" content="http://sachachua.com/" />
+    <meta itemprop="email" content="" />
+    <link href="http://sachachua.com/" />
+    <link href="https://twitter.com/sachac" />
+    <link href="https://www.linkedin.com/in/sachac" />
+    <link href="http://experivis.com/" />
+    <link href="https://www.facebook.com/sachac" />
+    <link href="http://www.slideshare.net/sachac" />
+    <link href="https://www.flickr.com/photos/sachac/" />
+    <a rel="author" href="http://sachachua.com/" />Sacha Chua</a>
   </div>
+</div>
+</cite>
 </li>
 
 <li>
-  <div itemscope itemtype="http://schema.org/Code">
-    <meta itemprop="name" content=".emacs file" />
+<div class="citation">
+<div itemscope itemtype="http://schema.org/Code">
+  <meta itemprop="name" content=".emacs file" />
+  <meta itemprop="keywords" content="emacs, dotfiles" />
+  <meta itemprop="url" content="https://github.com/avar/dotemacs/" />
+  <h1><a href="https://github.com/avar/dotemacs/">.emacs file</a></h1>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Arnfjörð Bjarmason" />
     <meta itemprop="keywords" content="emacs, dotfiles" />
-    <meta itemprop="url" content="https://github.com/avar/dotemacs/" />
-    <h1><cite><a href="https://github.com/avar/dotemacs/">.emacs file</a></cite></h1>
-    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Arnfjörð Bjarmason" />
-      <meta itemprop="keywords" content="emacs, dotfiles" />
-      <meta itemprop="url" content="https://github.com/avar/" />
-      <meta itemprop="email" content="avarab@gmail.com" />
-      <link href="https://github.com/avar/" />
-      <link href="http://xn--var-xla.net/" />
-      <a href="https://github.com/avar/" />Ævar Arnfjörð Bjarmason</a>
-    </div>
+    <meta itemprop="url" content="https://github.com/avar/" />
+    <meta itemprop="email" content="avarab@gmail.com" />
+    <link href="https://github.com/avar/" />
+    <link href="http://xn--var-xla.net/" />
+    <a rel="author" href="https://github.com/avar/" />Ævar Arnfjörð Bjarmason</a>
   </div>
+</div>
+</div>
 </li>
 
 <li>
-  <div itemscope itemtype="http://schema.org/Code">
-    <meta itemprop="name" content="Rod's .emacs.org" />
-    <meta itemprop="url" content="https://github.com/rodw/.dotfiles/tree/master/emacs" />
-    <meta itemprop="keywords" content="emacs, dotfiles" />
-    <h1><cite><a href="https://github.com/rodw/.dotfiles/tree/master/emacs">Rod's .emacs.org</a></cite></h1>
-    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Rod Waldhoff />
-      <meta itemprop="email" content="" />
-      <link href="https://github.com/rodw" />
-      <link href="http://heyrod.com/" />
-      <a href="http://heyrod.com/" />Rod Waldhoff</a>
-    </div>
+<div class="citation">
+<div itemscope itemtype="http://schema.org/Code">
+  <meta itemprop="name" content="Rod's .emacs.org" />
+  <meta itemprop="url" content="https://github.com/rodw/.dotfiles/tree/master/emacs" />
+  <meta itemprop="keywords" content="emacs, dotfiles" />
+  <h1><a href="https://github.com/rodw/.dotfiles/tree/master/emacs">Rod's .emacs.org</a></h1>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Rod Waldhoff />
+    <meta itemprop="email" content="" />
+    <link href="https://github.com/rodw" />
+    <link href="http://heyrod.com/" />
+    <a rel="author" href="http://heyrod.com/" />Rod Waldhoff</a>
   </div>
+</div>
+</div>
 </li>
 
 <li>
-  <div itemscope itemtype="http://schema.org/BlogPosting">
-    <meta itemprop="name" content="Effective .emacs" />
-    <meta itemprop="url" content="http://a-nickels-worth.blogspot.com/2007/11/effective-emacs.html" />
-    <meta itemprop="keywords" content="emacs, dotfiles" />
-    <h1><cite><a href="http://a-nickels-worth.blogspot.com/2007/11/effective-emacs.html">Effective .emacs</a></cite></h1>
-    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jacob Gabrielson" />
-      <meta itemprop="email" content="??" />
-      <link href="https://www.linkedin.com/in/jacobgabrielson" />
-      <link href="https://github.com/JacobGabrielson" />
-      <a href=https://www.linkedin.com/in/jacobgabrielson">Jacob Gabrielson</a>
-    </div>
-    <div itemprop="isPartOf" itemscope itemtype="http://schema.org/Blog">
-      <meta itemprop="name" content="A Nickel's Worth" />
-      <meta itemprop="url" content="http://a-nickels-worth.blogspot.com" />
-    </div>
+<div class="citation">
+<div itemscope itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="name" content="Effective .emacs" />
+  <meta itemprop="url" content="http://a-nickels-worth.blogspot.com/2007/11/effective-emacs.html" />
+  <meta itemprop="keywords" content="emacs, dotfiles" />
+  <h1><a href="http://a-nickels-worth.blogspot.com/2007/11/effective-emacs.html">Effective .emacs</a></h1>
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jacob Gabrielson" />
+    <meta itemprop="email" content="??" />
+    <link href="https://www.linkedin.com/in/jacobgabrielson" />
+    <link href="https://github.com/JacobGabrielson" />
+    <a href=https://www.linkedin.com/in/jacobgabrielson">Jacob Gabrielson</a>
   </div>
-  </li>
-
+  <div itemprop="isPartOf" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="A Nickel's Worth" />
+    <meta itemprop="url" content="http://a-nickels-worth.blogspot.com" />
+  </div>
+</div>
+</div>
 </li>
 
 </ul>
