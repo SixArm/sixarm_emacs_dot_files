@@ -73,9 +73,9 @@ We organize modes by using directories.
 
 Each mode directoy typically has:
 
-* `require.el` that requires the mode.
-* `indent.el` that requires the mode.
-* `auto-mode-alist.el` that sets what files use the mode. If this file has more than one entry, we create a directory `auto-mode-alist` and use one file per purpose.
+* `auto-mode-alist.el` sets the file patterns that use the mode.
+* `indent.el` sets indentation rules.
+* `require.el` loads the mode.
 
 
 ## Thanks & Links
