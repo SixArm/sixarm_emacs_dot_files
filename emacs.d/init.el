@@ -66,4 +66,6 @@
 
 ;; Modes
 (load-file (concat dotfiles-dir "modes/closure-mode-on.el"))
-(load-file (concat dotfiles-dir "modes/ruby/rake-is-ruby.el"))
+(load-file (concat dotfiles-dir "modes/javascript/js2.el"))
+(load-file (concat dotfiles-dir "modes/json/json-uses-js.el"))
+(load-file (concat dotfiles-dir "modes/ruby/rake-uses-ruby.el"))

@@ -67,6 +67,16 @@ Modes:
 * json/json-uses-js: "*.json" et. al. use js-mode.
 * ruby/rake-uses-ruby: "*.rake" et. al. use ruby-mode.
 
+## Modes
+
+We organize modes by using directories.
+
+Each mode directoy typically has:
+
+* `require.el` that requires the mode.
+* `indent.el` that requires the mode.
+* `auto-mode-alist.el` that sets what files use the mode. If this file has more than one entry, we create a directory `auto-mode-alist` and use one file per purpose.
+
 
 ## Thanks & Links
 
