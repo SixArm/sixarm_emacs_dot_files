@@ -87,6 +87,7 @@
 (load-file (concat dotfiles-dir "modes/ruby-mode/require.el"))
 (load-file (concat dotfiles-dir "modes/ruby-mode/auto-mode-alist.el"))
 (load-file (concat dotfiles-dir "modes/ruby-mode/autopair-on.el"))
+(load-file (concat dotfiles-dir "modes/sh-mode/sh-script.el"))
 (load-file (concat dotfiles-dir "modes/sh-mode/require.el"))
 (load-file (concat dotfiles-dir "modes/sh-mode/auto-mode-alist.el"))
 (load-file (concat dotfiles-dir "modes/text-mode/auto-mode-alist.el"))
