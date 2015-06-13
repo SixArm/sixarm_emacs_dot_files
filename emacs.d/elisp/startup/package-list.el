@@ -28,7 +28,6 @@
                        ack-and-a-half
                        auctex
                        clojure-mode
-                       clojure-test-mode
                        coffee-mode
                        csharp-mode
                        deft
