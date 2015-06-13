@@ -17,10 +17,12 @@
 (load-library "enable-all-commands-in-one-fell-swoop")
 (load-library "inhibit-splash-screen")
 (load-library "inhibit-startup-message")
+(load-library "initial-major-mode")
 (load-library "initial-scratch-message-off")
 
 ;; Display
 (load-library "highlight-selection")
+(load-library "indicate-empty-lines")
 (load-library "linum-format-uses-right-justify-six-digit-bar-pad")
 (load-library "menu-bar-off")
 (load-library "scroll-bar-off")
@@ -38,12 +40,18 @@
 ;;(load-library "green-on-black-colors")
 
 ;; Editing
+(load-library "delete-selection-mode-on")
 (load-library "indent-tabs-mode-off")
+(load-library "sentence-end-single-space")
+(load-library "transient-mark-mode-on")
+
+;; Keys
+(load-library "comment-region")
 (load-library "meta-space-does-hippie-expand")
 (load-library "search-uses-regexp")
 (load-library "select-window-with-alt-arrow")
-(load-library "sentence-end-single-space")
 (load-library "soft-tabs")
+(load-library "text-scale")
 
 ;; Compeletion
 (load-library "icomplete-mode-on")
@@ -61,11 +69,9 @@
 ;; Load all our favorite packages and package archives
 (load-library "package-list")
 
-;; Bindings
-(load-file (concat dotfiles-dir "bindings/helm.el"))
-
 ;; Modes
 (load-file (concat dotfiles-dir "modes/closure-mode-on.el"))
 (load-file (concat dotfiles-dir "modes/javascript/js2.el"))
 (load-file (concat dotfiles-dir "modes/json/json-uses-js.el"))
 (load-file (concat dotfiles-dir "modes/ruby/rake-uses-ruby.el"))
+(load-file (concat dotfiles-dir "modes/helm/helm.el"))
