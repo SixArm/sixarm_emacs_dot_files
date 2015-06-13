@@ -65,13 +65,15 @@ Modes:
 * closure-mode-on: require closure programming major mode.
 * javascript/js2: use JS2 mode.
 * json/json-uses-js: "*.json" et. al. use js-mode.
+* helm
 * ruby/rake-uses-ruby: "*.rake" et. al. use ruby-mode.
 
-## Modes
+
+## Mode Organization
 
 We organize modes by using directories.
 
-Each mode directoy typically has:
+Each mode directory typically has:
 
 * `auto-mode-alist.el` sets the file patterns that use the mode.
 * `indent.el` sets indentation rules.

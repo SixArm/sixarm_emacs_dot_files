@@ -74,4 +74,4 @@
 (load-file (concat dotfiles-dir "modes/javascript/js2.el"))
 (load-file (concat dotfiles-dir "modes/json/json-uses-js.el"))
 (load-file (concat dotfiles-dir "modes/ruby/rake-uses-ruby.el"))
-(load-file (concat dotfiles-dir "modes/helm/helm.el"))
+(load-file (concat dotfiles-dir "modes/helm/require.el"))
