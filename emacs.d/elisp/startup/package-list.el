@@ -79,6 +79,7 @@
                        scala-mode
                        scpaste
                        scss-mode
+                       sh-mode
                        smex
                        sml-mode
                        ;;solarized-theme
