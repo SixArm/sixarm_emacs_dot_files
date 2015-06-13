@@ -7,11 +7,10 @@
 ;; Initialize the current location
 (setq dotfiles-dir (file-name-directory (or load-file-name (buffer-file-name))))
 
-;; Add load paths
-(add-to-list 'load-path "~/.emacs.d/elisp/")
-(add-to-list 'load-path "~/.emacs.d/elisp/startup")
-(add-to-list 'load-path "~/.emacs.d/elisp/colors")
-(add-to-list 'load-path "~/.emacs.d/elisp/personal")
+;; Add `elisp` subdirectories to the load path
+(let ((default-directory (concat dotfiles-dir "elisp/")))
+  (normal-top-level-add-to-load-path '("."))
+  (normal-top-level-add-subdirs-to-load-path))
 
 ;; Startup
 (load-library "enable-all-commands-in-one-fell-swoop")
@@ -70,8 +69,27 @@
 (load-library "package-list")
 
 ;; Modes
-(load-file (concat dotfiles-dir "modes/closure-mode-on.el"))
-(load-file (concat dotfiles-dir "modes/javascript/js2.el"))
-(load-file (concat dotfiles-dir "modes/json/json-uses-js.el"))
-(load-file (concat dotfiles-dir "modes/ruby/rake-uses-ruby.el"))
-(load-file (concat dotfiles-dir "modes/helm/require.el"))
+;;(load-file (concat dotfiles-dir "modes/closure-mode/require.el"))
+;;(load-file (concat dotfiles-dir "modes/closure-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/indent.el"))
+(load-file (concat dotfiles-dir "modes/conf-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/conf-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/derive.el"))
+(load-file (concat dotfiles-dir "modes/js2-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/js2-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/use-pandoc-to-generate-html-previews.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/autopair-on.el"))
+(load-file (concat dotfiles-dir "modes/shell-script-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/shell-script-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/text-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/web-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/yaml-mode/require.el"))
+(load-file (concat dotfiles-dir "modes/yaml-mode/auto-mode-alist.el"))
