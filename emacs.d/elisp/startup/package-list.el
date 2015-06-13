@@ -14,7 +14,21 @@
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
 ;; Activate all the packages
+;;
+;; In vanilla emacs, automatic package loading occurs after loading the
+;; init file; user options only receive their customized values after
+;; loading the init file, including user options which may affect the
+;; packaging system.
+;;
+;; We want to load packages explicitly in our init file, because some other
+;; code in our init file depends on a package. Therefore we are calling the
+;; function package-initialize. We ensure that relevant user options, such as
+;; package-load-list, are set up prior to the package-initialize call.
+;;
+;; We also set package-enable-at-startup to nil, to avoid loading the packages
+;; again after processing the init file.
 (package-initialize)
+(setq package-enable-at-startup nil)
 
 ;; We want these packages
 (defvar package-list '(
@@ -48,7 +62,6 @@
                        magit
                        markdown-mode
                        marmalade
-                       nrepl
                        nodejs-repl
                        o-blog
                        oddmuse
