@@ -25,7 +25,6 @@
                        ac-slime
                        auto-complete
                        autopair
-                       ack-and-a-half
                        auctex
                        clojure-mode
                        coffee-mode
