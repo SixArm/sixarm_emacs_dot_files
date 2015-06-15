@@ -47,15 +47,22 @@
                        erlang
                        expand-region
                        feature-mode
+		       flx
+		       flx-ido
                        flycheck
                        gist
                        go-mode
+		       go-projectile
                        graphviz-dot-mode
                        groovy-mode
                        haml-mode
                        haskell-mode
                        helm
                        helm-projectile
+		       helm-rails
+		       helm-rb
+		       helm-rubygems-local
+		       helm-rubygems-org
                        htmlize
                        inf-ruby
                        js2-mode
@@ -66,10 +73,16 @@
                        o-blog
                        oddmuse
                        org
+		       org-projectile
+		       org-trello
+		       org-vcard
                        paredit
                        php-mode
                        puppet-mode
                        projectile
+		       projectile-codesearch
+		       projectile-rails
+		       projectile-speedbar
                        python
                        rainbow-mode
                        rainbow-mode
