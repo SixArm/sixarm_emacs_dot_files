@@ -1,2 +1,4 @@
 ;; tool-bar-off: hide the tool bar
-(tool-bar-mode -1)
+(when window-system
+  (tool-bar-mode -1)
+  )
