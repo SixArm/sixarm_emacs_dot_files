@@ -3,4 +3,4 @@
 ;;
 ;; Instead, we use the `sh-script` file in this same directory.
 
-;;(require 'sh-mode)
+;(autoload 'sh-mode "sh-mode" "sh-mode" t)
