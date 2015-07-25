@@ -69,7 +69,6 @@
                        magit
                        markdown-mode
                        marmalade
-                       nrepl
                        nodejs-repl
                        o-blog
                        oddmuse
