@@ -37,10 +37,11 @@
                        ;;starter-kit-eshell
                        ;;starter-kit-lisp
                        ac-slime
+                       auctex
                        auto-complete
                        autopair
-                       auctex
                        clojure-mode
+                       clojure-test-mode
                        coffee-mode
                        csharp-mode
                        deft
@@ -69,6 +70,7 @@
                        magit
                        markdown-mode
                        marmalade
+                       nrepl
                        nodejs-repl
                        o-blog
                        oddmuse
@@ -87,7 +89,6 @@
                        rainbow-mode
                        rainbow-mode
                        restclient
-                       ;;rvm
                        sass-mode
                        scala-mode
                        scpaste
@@ -103,7 +104,6 @@
                        yasnippet
                        yaml-mode
                        ))
-
 
 ;; Is every package in our list already installed?
 ;; This helps us speed up startup, because if all the
