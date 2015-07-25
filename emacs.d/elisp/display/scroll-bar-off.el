@@ -1,2 +1,4 @@
 ;; scroll-bar-off: hide the scroll bar
-(scroll-bar-mode -1)
+(when window-system
+  (scroll-bar-mode -1)
+  )
