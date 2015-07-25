@@ -85,6 +85,9 @@
 
 (load-file (concat dotfiles-dir "modes/helm-mode/0.el"))
 
+(load-file (concat dotfiles-dir "modes/ido-mode/0.el"))
+(load-file (concat dotfiles-dir "modes/ido-mode/customize.el"))
+
 (load-file (concat dotfiles-dir "modes/cpsa-mode/0.el"))
 (load-file (concat dotfiles-dir "modes/cpsa-mode/auto-mode-alist.el"))
 (load-file (concat dotfiles-dir "modes/cpsa-mode/customize.el"))
