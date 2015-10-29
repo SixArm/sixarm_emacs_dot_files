@@ -95,6 +95,11 @@
 ;;(load-file (concat dotfiles-dir "modes/cpsa-mode/customize.el"))
 ;;(load-file (concat dotfiles-dir "modes/cpsa-mode/derive.el"))
 
+(load-file (concat dotfiles-dir "modes/haskell-mode/0.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/hooks.el"))
+
 ;;(load-file (concat dotfiles-dir "modes/js2-mode/0.el"))
 ;;(load-file (concat dotfiles-dir "modes/js2-mode/auto-mode-alist.el"))
 ;;(load-file (concat dotfiles-dir "modes/js2-mode/customize.el"))
