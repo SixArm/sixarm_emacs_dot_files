@@ -70,6 +70,8 @@
 
 ;; Modes
 
+(autoload 'awk-mode "cc-mode" nil t)
+
 ;;(load-file (concat dotfiles-dir "modes/closure-mode/0.el"))
 ;;(load-file (concat dotfiles-dir "modes/closure-mode/auto-mode-alist.el"))
 ;;(load-file (concat dotfiles-dir "modes/closure-mode/customize.el"))
