@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/haskell-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/indent.el"))
