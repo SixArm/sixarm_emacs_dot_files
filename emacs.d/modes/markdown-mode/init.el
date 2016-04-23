@@ -1,0 +1,6 @@
+(load-file (concat dotfiles-dir "modes/markdown-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/indent.el"))
+;;(load-file (concat dotfiles-dir "modes/markdown-mode/use-pandoc-to-generate-html-previews.el"))

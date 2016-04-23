@@ -73,12 +73,16 @@ Modes:
 
 We organize modes by using directories.
 
-Each mode directory typically has:
+Each mode directory typically has these 6 files:
 
+* `init.el` initializes the mode and all its related files.
+* `autoload.el` autoloads the mode.
 * `auto-mode-alist.el` sets the file patterns that use the mode.
-* `indent.el` sets indentation rules.
-* `require.el` loads the mode.
+* `customize.el` is a catch-all for any customization logic.
+* `indent.el` set indentation rules.
+* `hooks.el` set hooks.
 
+Some of these files are blank, intended as placeholders for other developers, or for your own editing.
 
 ## Thanks & Links
 

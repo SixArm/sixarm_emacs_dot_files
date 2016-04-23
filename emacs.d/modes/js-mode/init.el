@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/js-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/js-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/js-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/js-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/js-mode/indent.el"))

@@ -1,0 +1,6 @@
+(load-file (concat dotfiles-dir "modes/cpsa-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/derive.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/indent.el"))

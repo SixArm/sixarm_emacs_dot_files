@@ -1,0 +1,6 @@
+(load-file (concat dotfiles-dir "modes/ruby-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/indent.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/autopair-on.el"))

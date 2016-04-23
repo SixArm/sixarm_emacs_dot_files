@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/helm-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/indent.el"))

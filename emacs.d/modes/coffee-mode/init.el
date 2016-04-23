@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/coffee-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/indent.el"))

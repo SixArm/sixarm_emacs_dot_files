@@ -72,64 +72,18 @@
 
 (autoload 'awk-mode "cc-mode" nil t)
 
-;;(load-file (concat dotfiles-dir "modes/closure-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/closure-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/closure-mode/customize.el"))
-
-;;(load-file (concat dotfiles-dir "modes/coffee-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/coffee-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/coffee-mode/customize.el"))
-;;(load-file (concat dotfiles-dir "modes/coffee-mode/indent.el"))
-
-(load-file (concat dotfiles-dir "modes/conf-mode/0.el"))
-(load-file (concat dotfiles-dir "modes/conf-mode/auto-mode-alist.el"))
-
-;;(load-file (concat dotfiles-dir "modes/cua-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/cua-mode/customize.el"))
-
-(load-file (concat dotfiles-dir "modes/helm-mode/0.el"))
-
-(load-file (concat dotfiles-dir "modes/ido-mode/0.el"))
-(load-file (concat dotfiles-dir "modes/ido-mode/customize.el"))
-
-;;(load-file (concat dotfiles-dir "modes/cpsa-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/cpsa-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/cpsa-mode/customize.el"))
-;;(load-file (concat dotfiles-dir "modes/cpsa-mode/derive.el"))
-
-(load-file (concat dotfiles-dir "modes/haskell-mode/0.el"))
-(load-file (concat dotfiles-dir "modes/haskell-mode/auto-mode-alist.el"))
-(load-file (concat dotfiles-dir "modes/haskell-mode/customize.el"))
-(load-file (concat dotfiles-dir "modes/haskell-mode/hooks.el"))
-
-;;(load-file (concat dotfiles-dir "modes/js2-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/js2-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/js2-mode/customize.el"))
-
-;;(load-file (concat dotfiles-dir "modes/markdown-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/markdown-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/markdown-mode/customize.el"))
-;;(load-file (concat dotfiles-dir "modes/markdown-mode/hooks.el"))
-;;(load-file (concat dotfiles-dir "modes/markdown-mode/use-pandoc-to-generate-html-previews.el"))
-
-(load-file (concat dotfiles-dir "modes/ruby-mode/0.el"))
-(load-file (concat dotfiles-dir "modes/ruby-mode/auto-mode-alist.el"))
-(load-file (concat dotfiles-dir "modes/ruby-mode/customize.el"))
-(load-file (concat dotfiles-dir "modes/ruby-mode/autopair-on.el"))
-
-;;(load-file (concat dotfiles-dir "modes/sh-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/sh-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/sh-mode/customize.el"))
-;;(load-file (concat dotfiles-dir "modes/sh-mode/sh-script.el")
-
-;;(load-file (concat dotfiles-dir "modes/text-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/text-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/text-mode/customize.el"))
-
-;;(load-file (concat dotfiles-dir "modes/web-mode/0.el"))
-;;(load-file (concat dotfiles-dir "modes/web-mode/auto-mode-alist.el"))
-;;(load-file (concat dotfiles-dir "modes/web-mode/customize.el"))
-
-(load-file (concat dotfiles-dir "modes/yaml-mode/0.el"))
-(load-file (concat dotfiles-dir "modes/yaml-mode/auto-mode-alist.el"))
-(load-file (concat dotfiles-dir "modes/yaml-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/closure-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/coffee-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/conf-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/cua-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/helm-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/ido-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/cpsa-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/haskell-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/js-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/markdown-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/ruby-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/sh-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/text-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/web-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/yaml-mode/init.el"))

@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/cua-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/cua-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/cua-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/cua-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/cua-mode/indent.el"))
