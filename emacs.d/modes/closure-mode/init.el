@@ -1,5 +1,0 @@
-(load-file (concat dotfiles-dir "modes/closure-mode/autoload.el"))
-(load-file (concat dotfiles-dir "modes/closure-mode/auto-mode-alist.el"))
-(load-file (concat dotfiles-dir "modes/closure-mode/customize.el"))
-(load-file (concat dotfiles-dir "modes/closure-mode/hooks.el"))
-(load-file (concat dotfiles-dir "modes/closure-mode/indent.el"))

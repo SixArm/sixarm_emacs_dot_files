@@ -1,0 +1,5 @@
+(load-file (concat dotfiles-dir "modes/clojure-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/clojure-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/clojure-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/clojure-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/clojure-mode/indent.el"))

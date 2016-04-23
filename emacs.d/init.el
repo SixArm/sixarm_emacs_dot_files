@@ -72,7 +72,7 @@
 
 (autoload 'awk-mode "cc-mode" nil t)
 
-(load-file (concat dotfiles-dir "modes/closure-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/clojure-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/coffee-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/conf-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/cua-mode/init.el"))
