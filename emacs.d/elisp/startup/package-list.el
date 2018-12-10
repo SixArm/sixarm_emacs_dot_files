@@ -50,6 +50,7 @@
   csharp-mode
   deft
   erlang
+  eslint
   expand-region
   feature-mode
   flx
