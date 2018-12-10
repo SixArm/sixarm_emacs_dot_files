@@ -43,6 +43,10 @@
   clojure-mode
   coffee-mode
   company-mode
+  company-tern
+  company-quickhelp
+  company-web
+  counsel-etags
   csharp-mode
   deft
   erlang
@@ -66,7 +70,9 @@
   helm-rubygems-org
   htmlize
   inf-ruby
+  js2-highlight-vars
   js2-mode
+  js2-refactor
   magit
   markdown-mode
   marmalade
@@ -97,6 +103,7 @@
   smex
   sml-mode
   ;;solarized-theme
+  tide
   tuareg
   volatile-highlights
   web-mode
