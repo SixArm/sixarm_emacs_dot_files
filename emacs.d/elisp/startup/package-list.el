@@ -88,6 +88,8 @@
   rainbow-mode
   rainbow-mode
   restclient
+  rjsx-mode
+  rust-mode
   sass-mode
   scala-mode
   scpaste
