@@ -42,15 +42,15 @@
   autopair
   clojure-mode
   coffee-mode
-  company-mode
-  company-tern
-  company-quickhelp
-  company-web
+  ;;company-mode
+  ;;company-tern
+  ;;company-quickhelp
+  ;;company-web
   counsel-etags
   csharp-mode
   deft
   erlang
-  eslint
+  ;;eslint
   expand-region
   feature-mode
   flx
