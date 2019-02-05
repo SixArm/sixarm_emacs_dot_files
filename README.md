@@ -62,6 +62,25 @@ Tools:
 
 Modes:
 
+* clojure-mode
+* coffee-mode
+* conf-mode
+* cpsa-mode
+* cua-mode
+* haskell-mode
+* helm-mode
+* ido-mode
+* js-mode
+* markdown-mode
+* ruby-mode
+* rust-mode
+* sh-mode
+* text-mode
+* web-mode
+* yaml-mode
+
+Mode extras:
+
 * closure-mode-on: require closure programming major mode.
 * javascript/js2: use JS2 mode.
 * json/json-uses-js: "*.json" et. al. use js-mode.

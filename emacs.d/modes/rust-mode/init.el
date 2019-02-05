@@ -1,0 +1,6 @@
+(load-file (concat dotfiles-dir "modes/rust-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/indent.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/autopair-on.el"))

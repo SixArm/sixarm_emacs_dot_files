@@ -83,6 +83,7 @@
 (load-file (concat dotfiles-dir "modes/js-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/markdown-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/ruby-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/rust-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/sh-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/text-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/web-mode/init.el"))
