@@ -87,7 +87,7 @@
   paredit
   php-mode
   puppet-mode
-  prettier
+  ;;prettier
   projectile
   projectile-codesearch
   projectile-rails
