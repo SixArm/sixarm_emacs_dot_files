@@ -64,6 +64,7 @@ Modes:
 
 * clojure-mode
 * coffee-mode
+* company-mode
 * conf-mode
 * cpsa-mode
 * cua-mode

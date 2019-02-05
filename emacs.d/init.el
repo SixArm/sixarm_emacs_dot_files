@@ -75,6 +75,7 @@
 (load-file (concat dotfiles-dir "modes/clojure-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/coffee-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/conf-mode/init.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/cua-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/helm-mode/init.el"))
 (load-file (concat dotfiles-dir "modes/ido-mode/init.el"))

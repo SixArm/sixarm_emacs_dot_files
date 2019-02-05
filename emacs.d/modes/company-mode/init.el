@@ -1,0 +1,6 @@
+(load-file (concat dotfiles-dir "modes/company-mode/autoload.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/auto-mode-alist.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/customize.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/hooks.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/indent.el"))
+(load-file (concat dotfiles-dir "modes/company-mode/autopair-on.el"))
