@@ -27,7 +27,7 @@
 ;;
 ;; We also set package-enable-at-startup to nil, to avoid loading the packages
 ;; again after processing the init file.
-(package-initialize)
+(unless package--initialized (package-initialize t))
 (setq package-enable-at-startup nil)
 
 ;; We want these packages
