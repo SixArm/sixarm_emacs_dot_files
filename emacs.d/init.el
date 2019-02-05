@@ -62,7 +62,9 @@
 (load-library "before-save-hook-to-delete-trailing-whitespace")
 
 ;; Tools
-(load-library "ido-everywhere")
+
+;; ido-everywhere is commented out because it is incompatible with Helm-mode
+;;(load-library "ido-everywhere")
 (load-library "prelude-guru-off")
 
 ;; Load all our favorite packages and package archives

@@ -54,7 +54,7 @@
   expand-region
   feature-mode
   flx
-  flx-ido
+  ;;flx-ido
   flycheck
   gist
   go-mode
