@@ -77,7 +77,6 @@
   markdown-mode
   nodejs-repl
   o-blog
-  oddmuse
   org
   org-projectile
   org-trello
